@@ -40,7 +40,7 @@ const Hero = () => {
               <SocialLinks />
             </div>
           </div>
-          <div className="col-lg-6 order-1 order-lg-2 hero-img mb-5">
+          <div className="col-lg-6 order-1 order-lg-2 hero-img mb-5 d-none d-sm-block d-sm-none d-md-block">
             <Image fluid={fluid} className="img-fluid" alt="" />
           </div>
         </div>
