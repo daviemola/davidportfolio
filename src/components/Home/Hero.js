@@ -1,7 +1,7 @@
 import { useStaticQuery, graphql } from "gatsby"
 import React from "react"
 import Image from "gatsby-image"
-import socialLinks from "../Constants/socialLinks"
+import SocialLinks from "../Constants/socialLinks"
 
 const query = graphql`
   {
@@ -31,11 +31,13 @@ const Hero = () => {
             className="col-lg-6 pt-5 pt-lg-0 d-flex flex-column justify-content-center"
             data-aos="fade-up"
           >
-            <div>
-              <h1 className="font-weight-bold">This is David Mola</h1>
-              <h5>A freelance web developer</h5>
+            <div className="py-5">
+              <h2 className="text-capitalize display-4 font-weight-bold">
+                I'm David
+              </h2>
+              <p>A self-taught freelance web developer and designer.</p>
               <button className="btn btn-blue text-white">contact me</button>
-              <socialLinks />
+              <SocialLinks />
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img mb-5">

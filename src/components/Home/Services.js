@@ -10,7 +10,10 @@ const Services = () => {
         <div className="underline"></div>
         <div className="row">
           {services.map(service => (
-            <div className="col-10 col-sm-8 col-md-6 col-lg-4 mx-auto py-5">
+            <div
+              className="col-10 col-sm-8 col-md-6 col-lg-4 mx-auto py-5"
+              key={service.id}
+            >
               <div className="card pb-3" style={{ minHeight: "100%" }}>
                 <h4 className="text-center pt-4 my-4">{service.icon}</h4>
                 <h6 className="text-center font-weight-bold">
