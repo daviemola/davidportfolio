@@ -21,7 +21,6 @@ const Hero = () => {
       childImageSharp: { fluid },
     },
   } = useStaticQuery(query)
-  console.log(fluid)
 
   return (
     <div className="hero-section mb-5">

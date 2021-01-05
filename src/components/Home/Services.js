@@ -7,7 +7,6 @@ const Services = () => {
     <div className="services-section py-5 my-3">
       <div className="container ">
         <Title title="My Services" />
-        <div className="underline"></div>
         <div className="row">
           {services.map(service => (
             <div

@@ -6,6 +6,7 @@ const Title = ({ title }) => {
       <h1 className="text-capitalize display-4 font-weight-bold text-center">
         {title}
       </h1>
+      <div className="underline"></div>
     </div>
   )
 }

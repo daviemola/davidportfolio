@@ -3,6 +3,7 @@ import "./bootstrap.min.css"
 import Footer from "./Global/Footer"
 import Header from "./Global/Header"
 import "./layout.css"
+import "./project.css"
 
 const Layout = ({ children }) => {
   return (
