@@ -32,9 +32,12 @@ const Hero = () => {
           >
             <div className="py-5">
               <h2 className="text-capitalize display-4 font-weight-bold">
-                I'm David
+                John Doe
               </h2>
-              <p>A self-taught freelance web developer and designer.</p>
+              <p>
+                A passionate self-taught web developer and designer. I freelance
+                and love developing products that solve real world problems.
+              </p>
               <button className="btn btn-blue text-white">contact me</button>
               <SocialLinks />
             </div>
